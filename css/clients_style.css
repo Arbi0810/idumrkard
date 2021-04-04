@@ -1,0 +1,79 @@
+.rest_book_closed_msg .rest_form_label {
+    color: #ff0000;
+    padding-left: 8px;
+}
+.rest_book_to_msg > span {
+    color: #ff0000;
+    display: inline-block;
+}
+.rest_booking_field {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    width: 100%;
+}
+.rest_booking_field input {
+    width: 100%;
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+
+.ui-datepicker.ui-widget.ui-widget-content {
+    z-index: 9999 !important;
+} 
+
+span.error,
+span.compulsary{
+    color: red;
+}
+.restbookFrm .rest_booking_field .time_from_div,
+.restbookFrm .rest_first_name_div{
+    width: 48%;
+    float: left;
+}
+.restbookFrm .rest_booking_field .time_to_div,
+.restbookFrm .rest_last_name_div{
+    width: 48%;
+    float: right;
+}
+button,button:focus,button:active{
+    outline: medium none;
+}
+span.success{
+    color: #4caf50;
+}
+.ui-timepicker-viewport{
+    height: auto !important;
+    max-height: 205px;
+}
+.ui-timepicker{
+    height: auto !important;
+    max-height: 205px;
+}
+.ui-timepicker-hidden{
+    height: auto !important;
+}
+.rest_book_to_msg p.rest_slot_message{
+    color: #4caf50;
+    margin: 0;
+}
+.aio_reservation_widget {
+    float: left;
+}
+.aio_working_times table th{
+    width: 100%;
+}
+@media screen and (max-width: 415px) {
+    .restbookFrm .rest_booking_field .time_from_div,
+    .restbookFrm .rest_first_name_div{
+        width: 100%;
+        display: block;
+    }
+    .restbookFrm .rest_booking_field .time_to_div,
+    .restbookFrm .rest_last_name_div{
+        width: 100%;
+        display: block;
+    }
+}
